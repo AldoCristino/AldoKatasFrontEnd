@@ -1,0 +1,44 @@
+body{
+    font-family: arial,Helvetica;
+}
+
+.nave{
+    list-style: none;
+    padding: 0px;
+    background-color: brown;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.nave li{
+    display: inline-block;
+    text-align: center;
+}
+
+.nave li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+
+.nave li a:hover{
+    background-color: orangered;
+}
+
+table,th,td{
+    border: 5px solid black;
+    border-collapse: collapse;
+}
+
+th,td{
+    padding: 10px;
+}
+
+th{
+    background-color: yellow;
+    text-align: center;
+    font-family: Arial, Helvetica;
+    color:black;
+}

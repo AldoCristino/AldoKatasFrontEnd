@@ -1,0 +1,70 @@
+body{
+    font-family: arial,Helvetica;
+}
+
+.nave{
+    list-style: none;
+    padding: 0px;
+    background-color: brown;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.nave li{
+    display: inline-block;
+    text-align: center;
+}
+
+.nave li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+
+.nave li a:hover{
+    background-color: orangered;
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+.container .card{
+    width: 330px;
+    height: 430px;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition:  all 0.25s;
+    box-shadow: 0 2px 2px rgb(0, 0, 0,0.2);
+}
+
+.container .card:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 2px 2px rgb(0, 0, 0,0.2);
+}
+
+.container .card img{
+    width: 330px;
+    height: 220px;
+}
+
+.container .card p{
+    padding: 0 1rem;
+    font-size: 13px;
+    font-family: Arial, Helvetica;
+}
+
+.container .card button{
+    text-decoration: none;
+    color: blue;
+}
